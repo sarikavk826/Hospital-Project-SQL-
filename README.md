@@ -1,47 +1,53 @@
-# Hospital-Project-SQL-
-This project is a SQL-based hospital management dataset and analysis built to perform insightful queries on hospital operations. It includes table creation, data storage, and various analytical queries for healthcare data analysis.
-Features
+#  Hospital Database Project (SQL)
 
-Database & Table Setup
+This project is a **SQL-based hospital management dataset and analysis** designed to explore hospital operations through structured queries. It demonstrates how SQL can be used for **healthcare analytics, reporting, and resource management**.
 
-Created a Hospital_Data table to store hospital details such as name, location, department, doctors count, patients count, admission/discharge dates, and medical expenses.
+---
 
-Analytical Queries & Reports
+##  Project Overview
+The project creates and analyzes a hospital dataset with details like:
+- Hospital name & location  
+- Departments  
+- Number of doctors and patients  
+- Admission & discharge dates  
+- Medical expenses  
 
-Total number of patients across all hospitals
+Using this dataset, several SQL queries are written to generate insights into hospital performance and patient statistics.
 
-Average number of doctors per hospital
+---
 
-Top 3 departments with the highest number of patients
+##  Features
 
-Hospital with maximum medical expenses
+###  Database & Table
+- Created `Hospital_Data` table with attributes:
+  - `Hospital_Name`
+  - `Location`
+  - `Department`
+  - `Doctors_Count`
+  - `Patients_Count`
+  - `Admission_Date`
+  - `Discharge_Date`
+  - `Medical_Expenses`
 
-Daily and monthly average medical expenses
+###  Analytical Queries
+-  Total number of patients across all hospitals  
+-  Average number of doctors per hospital  
+-  Top 3 departments with the highest patient count  
+-  Hospital with the maximum medical expenses  
+-  Daily and monthly average medical expenses  
+-  Longest hospital stay duration  
+-  Patients treated per city  
+-  Average stay duration per department  
+-  Department with the lowest patient count  
 
-Longest hospital stay duration
+---
 
-Patients treated per city
+##  SQL Concepts Used
+- **DDL & DML** (Create, Insert, Select)  
+- **Aggregate Functions** (`SUM`, `AVG`, `ROUND`)  
+- **Grouping & Ordering** (`GROUP BY`, `ORDER BY`)  
+- **Date Functions** (`DATEDIFF`, `DATE_FORMAT`)  
+   
 
-Average length of stay per department
+---
 
-Department with the lowest patient count
-
-🔹 Key SQL Concepts Used
-
-Views
-
-Aggregate Functions (SUM, AVG, ROUND)
-
-Grouping & Ordering (GROUP BY, ORDER BY)
-
-Date Functions (DATEDIFF, DATE_FORMAT)
-
-Filtering & Ranking (LIMIT)
-
-🔹 Use Cases
-
-Healthcare analytics and reporting
-
-Hospital resource management
-
-Patient flow and expense tracking
